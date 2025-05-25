@@ -8,7 +8,6 @@ const Contact = () => {
       <ul className="mt-4">
         <li>Email: <a href="mailto:kenneth.irvinb@gmail.com" className="text-blue-600">kenneth.irvinb@gmail.com</a></li>
         <li>
-          <div className="container mx-auto space-x-6">
             <a href="https://m.facebook.com/ascorpkbutad" target="_blank" rel="noopener noreferrer">
               <svg className="w-6 h-6 fill-blue hover:fill-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 4.99 3.66 9.13 8.44 9.88v-6.99H8.07v-2.89h2.37V9.91c0-2.34 1.4-3.64 3.55-3.64 1.03 0 2.11.18 2.11.18v2.32h-1.19c-1.17 0-1.54.73-1.54 1.48v1.78h2.62l-.42 2.89h-2.2v6.99C18.34 21.2 22 17.06 22 12.07z" />
@@ -24,7 +23,6 @@ const Contact = () => {
                 <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.99l8 6 8-6V18H4z" />
               </svg>
             </a>
-          </div>
         </li>
       </ul>
     </section>
