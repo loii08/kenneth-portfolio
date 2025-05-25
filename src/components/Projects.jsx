@@ -50,8 +50,7 @@ const Projects = () => {
       <h3 className="text-3xl font-bold text-center mb-10">Projects</h3>
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => {
-          const imageSrc = project.image || "/images/default.png";
-
+          const imageSrc = `{import.meta.env.BASE_URL}${project.image || "images/default.png"}`;
           return (
             <div
               key={index}
@@ -87,7 +86,6 @@ const Projects = () => {
         })}
       </div>
 
-      {/* Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
           <div className="relative bg-white rounded-lg shadow-lg max-w-3xl w-[90%] p-4">
