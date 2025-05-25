@@ -11,21 +11,21 @@ const projects = [
   {
     title: "Task Manager App",
     description: "A fullstack task management web app with user authentication and reporting.",
-    image: "../../public/images/default.png",
+    image: "/images/default.png",
     tech: ["React", "Express", "MySQL"],
     github: "https://github.com/kenloi08/task-manager"
   },
   {
     title: "Simple Portfolio",
     description: "A lightweight personal portfolio site made with HTML, CSS, and JS.",
-    image:"../public/images/default.png",
+    image:"/images/default.png",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/kenloi08/simple-portfolio"
   },
   {
     title: "Backup Application",
     description: "Internal Tools for Aftersales re-occuring task created using Python",
-    image:"../public/images/default.png",
+    image:"/images/default.png",
     tech: ["Python"],
     github: "https://github.com/kenloi08/BackupApplication"
   }
