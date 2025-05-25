@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Simple Portfolio",
     description: "A lightweight personal portfolio site made with HTML, CSS, and JS.",
-    image:"/images/portfolio.png",
+    image:"",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/kenloi08/simple-portfolio"
   }
