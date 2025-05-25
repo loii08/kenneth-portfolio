@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-sans bg-gray-100 text-gray-800">
+    <div className="scroll-smooth font-sans bg-gray-100 text-gray-800">
       <Navbar />
       <Hero />
       <About />
