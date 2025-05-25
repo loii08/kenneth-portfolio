@@ -32,7 +32,11 @@ const Projects = () => {
       <div
         key={index}
         className="bg-white rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl">
-        <img src={project.image} alt={project.title} className="w-full h-48 object-cover"/>
+        <img
+          src={project.image || "/images/image.png"}
+          alt={project.title}
+          className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
+        />
         <div className="p-4">
           <h4 className="text-xl font-semibold mb-2">{project.title}</h4>
           <p className="text-gray-700 mb-2">{project.description}</p>
