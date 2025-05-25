@@ -11,13 +11,19 @@ const projects = [
     title: "Task Manager App",
     description: "A fullstack task management web app with user authentication and reporting.",
     github: "https://github.com/kenloi08/task-manager",
-    tech: ["React", "Node.js", "Express", "MySQL"]
+    tech: ["PHP", "MySQL"]
   },
   {
     title: "Simple Portfolio",
     description: "A lightweight personal portfolio site made with HTML, CSS, and JS.",
     github: "https://github.com/kenloi08/simple-portfolio",
     tech: ["HTML", "CSS", "JavaScript"]
+  },
+    {
+    title: "Backup Application",
+    description: "Internal Tools for Aftersales Re-occuring task using Python.",
+    github: "https://github.com/kenloi08/BackupApplication",
+    tech: ["Python"]
   }
 ];
 
