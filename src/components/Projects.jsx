@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Task Manager App",
     description: "A fullstack task management web app with user authentication and reporting.",
-    image: "../public/images/default.png",
+    image: "../../public/images/default.png",
     tech: ["React", "Express", "MySQL"],
     github: "https://github.com/kenloi08/task-manager"
   },
