@@ -4,28 +4,28 @@ const projects = [
   {
     title: "Mini Store POS System",
     description: "A local inventory and POS system built with React, Node.js, and MySQL.",
-    image: "images/minipos.png",
+    image: "/images/minipos.png",
     tech: ["React", "Node.js", "MySQL"],
     github: "https://github.com/kenloi08/ministore-pos"
   },
   {
     title: "Task Manager App",
     description: "A fullstack task management web app with user authentication and reporting.",
-    image: "images/taskmanager.png",
+    image: "/images/taskmanager.png",
     tech: ["React", "Express", "MySQL"],
     github: "https://github.com/kenloi08/task-manager"
   },
   {
     title: "Simple Portfolio",
     description: "A lightweight personal portfolio site made with HTML, CSS, and JS.",
-    image:"images/portfolio.png",
+    image:"/images/portfolio.png",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/kenloi08/simple-portfolio"
   },
   {
     title: "Backup Application",
     description: "Internal Tools for Aftersales re-occuring task created using Python",
-    image:"images/backupapp.png",
+    image:"/images/backupapp.png",
     tech: ["Python"],
     github: "https://github.com/kenloi08/BackupApplication"
   }
